@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: rgb(243, 230, 216);
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    background-color: white;
+    height: auto;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+.picture{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+}
+
+.first-head{
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-family:"Young Serif";
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.p1{
+    text-align: start;
+    letter-spacing: 0.2px;
+    margin-bottom: 1.5rem;
+}
+
+.preparation{
+    background-color: rgb(255, 245, 250);
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+#preparation, #no{
+    color: rgb(123, 40, 79)
+}
+span{
+    color: black;
+}
+.prep li{
+    list-style-position: inside;
+    color: black;
+}
+
+.add-ingredients li, #ingredients{
+    color: rgb(165, 42, 42);
+    list-style-position: inside;
+    
+}
+
+.how-to li, #instructions{
+    color: rgb(165, 42, 42);
+    list-style-position: inside;
+    text-align: start;
+}
+
+#nutrition{
+    color: rgb(165, 42, 42);
+}
+
+.how-to, .add-ingredients{
+    margin-bottom: 1.5rem;
+}
+
+ul li
+{
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+ol li::marker {
+    padding: 0 0 0.7rem 1rem;
+    line-height: 1.4rem;
+}
+
+
+
+table {
+    table-layout: fixed; 
+    width: 37rem;
+    border-collapse: collapse;
+}
+
+table td {
+    text-indent: 2.3rem; 
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 0 1rem 0;
+}
+
+.measurements {
+    color: hsl(14, 45%, 36%);
+}
+
+footer{
+    margin-top: 100px;
+}
